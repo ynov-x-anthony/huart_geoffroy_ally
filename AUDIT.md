@@ -1,15 +1,11 @@
 # AUDIT.md : à compléter
 
-Pour chaque ligne, retrouve le problème correspondant dans `src/App.tsx` / `src/App.css`
-et remplis les 3 colonnes. Il y a **6 problèmes volontaires** dans ce starter.
+# 1 - Accessibilité web : enjeux, cadre légal et principes WCAG
 
-| # | Problème trouvé (où, quoi) | Principe WCAG (P / O / U / R) | Pourquoi c'est bloquant, et pour qui |
-|---|------------------------------|-------------------------------|----------------------------------------|
-| 1 | | | |
-| 2 | | | |
-| 3 | | | |
-| 4 | | | |
-| 5 | | | |
-| 6 | | | |
+## Exercice : associer chaque critère à un pricipe et donné une justrification.
 
-> Rappel : P = Perceptible, O = Opérable, U = Utilisable (Compréhensible), R = Robuste.
+| Critère WCAG | Principe | Justification |
+|---|---|---|
+| L'ensemble des fonctionnalités doivent être accésible au clavier. | Utilisable | L'interface doit pouvoir fonctionné sans souris pour ceux qui ne peuvent pas les utilisé. |
+| Les vidéos doivent être sous-titres ou proposé une transcription textuel. | Perceptible | L'information doit rester disponible même sans l'ouïe. |
+| Le code HTML doit être valide, avec des balises organisé correctement. | Robuste | un code robuste même en dehors du respect des régle lié à l'accéssibilité est essentiel pour garentire son bon fonctionnement futur. |le, U = Utilisable (Compréhensible), R = Robuste.
